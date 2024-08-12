@@ -9,10 +9,18 @@ const FormSection = ({ title, fields }) => {
   ));
 
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "center",
+        marginTop: "2rem",
+        color: "black",
+      }}
+    >
       <h1>{title}</h1>
       {formFields}
-    </>
+    </div>
   );
 };
 

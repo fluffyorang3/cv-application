@@ -1,5 +1,6 @@
 import React from "react";
 import FormSection from "./components/FormSection"; // Adjust the path if needed
+import "./style.css";
 
 function App() {
   return (
